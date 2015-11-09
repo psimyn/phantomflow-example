@@ -1,0 +1,20 @@
+{
+  "name": "phantomflow-example",
+  "version": "1.0.0",
+  "description": "Test setup for phantomflow",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "phantomflow": "^0.5.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/phantom.js",
+    "start": "node server.js"
+  },
+  "author": "psimyn",
+  "license": "ISC"
+}
