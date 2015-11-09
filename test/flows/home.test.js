@@ -1,4 +1,4 @@
-var homepage = require('./test/pages/home.page.js');
+var homepage = require('../pages/home.page.js');
 
 (function() {
   flow('homepage', function() {
